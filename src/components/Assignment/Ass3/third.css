@@ -1,0 +1,14 @@
+.main{
+  text-align: center;
+  
+}
+
+.name{
+  background-color:rebeccapurple;
+}
+.action{
+ width: 95%;
+ border: solid black;
+ margin-bottom: 15px;
+background-color: bisque;
+}
