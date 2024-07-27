@@ -1,0 +1,15 @@
+.card{
+  background-color: rgb(113, 168, 231);
+  padding: 1rem;
+  margin-block: 1rem;
+ }
+.card_title{
+  color: white;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.card_email{
+  color:black;
+  text-align: center;
+}
