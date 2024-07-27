@@ -15,7 +15,10 @@ export function App(){
 
   return(
     <div>
-      {persons.map((person)=><FirstComponent name={person.name} email={person.email}/>)}
+      {/* {persons.map((person)=><FirstComponent name={person.name} email={person.email}/>)} */}
+      {<SecondComponent/>}
+      {/* {<ThirdComponent/>} */}
+      {/* {<FourComponent/>} */}
     </div>
     
   )
