@@ -3,9 +3,11 @@
   
 }
 
-.name{
-  background-color:rebeccapurple;
+.name {
+  background-color: rebeccapurple;
+  padding: 10px;
 }
+
 .action{
  width: 95%;
  border: solid black;
