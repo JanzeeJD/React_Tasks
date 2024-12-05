@@ -20,7 +20,7 @@ export const ThirdComponent = () =>{
     setCounter(counter+1);
   }
   const decrement = () =>{
-    setCounter(counter-1);
+    setCounter(prev => prev > 1 ? prev - 1 : 1);
   }
   return(
     <div className='main'>
