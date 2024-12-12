@@ -8,12 +8,14 @@
   padding: 10px;
 }
 
-.action{
- width: 95%;
- border: solid black;
- margin-bottom: 15px;
-background-color: bisque;
+.action {
+  width: 95%;
+  border: solid black;
+  margin-bottom: 15px;
+  background-color: bisque;
+  border-radius: 8px;
 }
+
 
 .action:hover {
   background-color: lightblue;
