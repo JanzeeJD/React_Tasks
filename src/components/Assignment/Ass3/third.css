@@ -6,7 +6,9 @@
 .name {
   background-color: rebeccapurple;
   padding: 10px;
+  text-align: center;
 }
+
 
 .action {
   width: 95%;
