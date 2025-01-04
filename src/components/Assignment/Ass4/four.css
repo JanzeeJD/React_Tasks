@@ -24,6 +24,10 @@
   background-color: #007bff;
   color: aliceblue;
 }
+.buttonClick:hover {
+  background-color: #0056b3;
+}
+
 
 .inputHeading{
   color:brown;
