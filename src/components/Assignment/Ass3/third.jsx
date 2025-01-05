@@ -8,11 +8,17 @@ export const ThirdComponent = () =>{
  
 
  useEffect(()=>{
-  const fetchDetail = async()=>{
-    const response = await axios.get(`https://jsonplaceholder.typicode.com/users/${counter}`)
-    setUser(response.data)
-    console.log(response.data);
+  const fetchDetail = async () => {
+    try {
+      const response = await axios.get(`https://jsonplaceholder.typicode.com/users/${counter}`);
+      if (response?.data?.id) {
+        setUser(response.data);
+      }
+    } catch (err) {
+      console.error("Failed to fetch user data", err);
+    }
   }
+  
   fetchDetail()
  },[counter])
   
