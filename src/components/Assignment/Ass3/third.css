@@ -3,13 +3,14 @@
   margin-top: 30px;
 }
 
-
 .name {
   background-color: rebeccapurple;
   padding: 10px;
   text-align: center;
   color: white;
+  transition: background-color 0.4s ease-in-out;
 }
+
 
 .name h2 {
   font-size: 24px;
