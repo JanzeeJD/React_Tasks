@@ -6,6 +6,7 @@
   height: 50vh;
   background-color: beige;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
 }
 .inputBox{
   margin-bottom: 10px;
