@@ -30,3 +30,6 @@
 .action:hover {
   background-color: lightblue;
 }
+.button-spacing {
+  margin-top: 10px;
+}

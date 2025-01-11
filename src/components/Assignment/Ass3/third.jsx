@@ -35,7 +35,7 @@ export const ThirdComponent = () =>{
       <h2>{user.name || "Loading..."}</h2>
       <p>{user.email || ""}</p>
       </div>
-      <button className='action' onClick={increment}>+</button> <br />
+      <button className='action button-spacing' onClick={increment}>+</button> <br />
       <button className='action' onClick={decrement}>-</button>
     </div>
   )
