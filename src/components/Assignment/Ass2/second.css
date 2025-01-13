@@ -18,3 +18,7 @@
   padding-left: 5px;
   border: solid black;
 }
+
+.plus:hover {
+  background-color: lightgreen;
+}
