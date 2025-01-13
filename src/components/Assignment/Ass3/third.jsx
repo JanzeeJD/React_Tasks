@@ -8,6 +8,10 @@ export const ThirdComponent = () =>{
  
 
  useEffect(()=>{
+  if (counter === 10) {
+    console.log("You've reached 10!");
+  }
+}, [counter]);
   const fetchDetail = async () => {
     try {
       const response = await axios.get(`https://jsonplaceholder.typicode.com/users/${counter}`);
