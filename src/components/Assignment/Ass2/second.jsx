@@ -18,6 +18,8 @@ export const SecondComponent =()=>{
     <button className='minus' onClick={decrease}> - </button>
     <button className='multiply' onClick={multiply}> * 2 </button>
     <button className='plus' onClick={increase}> + </button>
+    <button className='reset' onClick={()=>setCount(1)}> Reset </button>
+
   </div>
  )
 }
