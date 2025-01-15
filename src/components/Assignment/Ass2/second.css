@@ -22,3 +22,9 @@
 .plus:hover {
   background-color: lightgreen;
 }
+
+.reset {
+  margin-left: 10px;
+  padding: 5px;
+  background-color: lightcoral;
+}
