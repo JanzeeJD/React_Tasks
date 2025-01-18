@@ -6,8 +6,8 @@ export const SecondComponent =()=>{
   const increase = ()=> {
     setCount(count+1);
   }
-  const decrease = ()=>{
-    setCount(count-1);
+  const decrease = ()=> {
+    setCount(prev => prev > 0 ? prev - 1 : 0);
   }
   const multiply = () =>{
     setCount (count*2)
