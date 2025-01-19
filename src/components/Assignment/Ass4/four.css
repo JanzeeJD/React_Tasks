@@ -16,6 +16,9 @@
   border-radius: 4px;
   text-align: center;
 }
+.inputBox:focus {
+  background-color: #f5f5dc;
+}
 
 .buttonClick{
   padding: 5px 10px;
