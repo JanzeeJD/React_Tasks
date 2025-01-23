@@ -2,6 +2,7 @@
   background-color: rgb(113, 168, 231);
   padding: 1rem;
   margin-block: 1rem;
+  border-radius: 10px;
  }
 .card_title{
   color: white;
