@@ -5,6 +5,11 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
  }
+ .card:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease-in-out;
+}
+
 .card_title{
   color: white;
   margin-bottom: 0;
