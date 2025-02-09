@@ -1,4 +1,6 @@
 import './first.css'
+import PropTypes from 'prop-types';
+
 export const FirstComponent = ({name,email})=>{
    return(
     <div className="card">
@@ -7,3 +9,8 @@ export const FirstComponent = ({name,email})=>{
     </div>
    )
 }
+
+FirstComponent.propTypes = {
+  name: PropTypes.string.isRequired,
+  email: PropTypes.string.isRequired,
+};
