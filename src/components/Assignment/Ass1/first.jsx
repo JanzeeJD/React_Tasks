@@ -14,3 +14,8 @@ FirstComponent.propTypes = {
   name: PropTypes.string.isRequired,
   email: PropTypes.string.isRequired,
 };
+
+FirstComponent.defaultProps = {
+  name: "No Name",
+  email: "Not Provided",
+};
