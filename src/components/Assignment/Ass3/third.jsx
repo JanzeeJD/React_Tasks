@@ -7,11 +7,11 @@ export const ThirdComponent = () =>{
  const [user, setUser] = useState({});
  
 
- useEffect(()=>{
+ useEffect(() => {
   if (counter === 10) {
     console.log("You've reached 10!");
   }
-}, [counter]);
+
   const fetchDetail = async () => {
     try {
       const response = await axios.get(`https://jsonplaceholder.typicode.com/users/${counter}`);
@@ -21,10 +21,11 @@ export const ThirdComponent = () =>{
     } catch (err) {
       console.error("Failed to fetch user data", err);
     }
-  }
-  
-  fetchDetail()
- },[counter])
+  };
+
+  fetchDetail();
+}, [counter]);
+
   
  const increment = ()=>{
     setCounter(counter+1);
